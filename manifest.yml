@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoTAppPun
+  host: IoTAppPun
+  disk_quota: 1024M
+  services:
+  - IoTAppPun-cloudantNoSQLDB
+  - IoTAppPun-iotf-service
